@@ -33,3 +33,5 @@ Para listar todas las mascotas, seleccionamos la opcion GET, con la misma URL qu
 https://127.0.0.1:8000/api/pet
 ```
 El resultado, se debería de mostrar en Preview, con un JSON de todas las mascotas que hay en la Base de Datos.
+### Conexion con DDBB
+En caso que no conecte con la Base de Datos, es necesario cambiar la línea 28 del archivo ".env" por la URL de la conexion a la suya.
